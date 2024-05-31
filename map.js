@@ -1,15 +1,17 @@
-    // Map initialization 
-    var map = L.map('map').setView([48.840265, 2.584583], 12);
 
-    //osm layer
-    var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    });
-    osm.addTo(map);
 
-    //Cité Descartes
+// Map initialization 
+var map = L.map('map').setView([48.840265, 2.584583], 9);
 
-    var citeDescartes = {
+//osm layer
+var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+osm.addTo(map);
+
+//Cité Descartes
+
+var citeDescartes = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -110,23 +112,68 @@
   ]
 }
 
-    L.geoJSON(citeDescartes).addTo(map);
+L.geoJSON(citeDescartes).addTo(map);
 
-    //Marker add
-    var markerRondPoint = L.marker([48.840265, 2.584583])
-    .bindPopup('<h1>Rond-Point</h1><iframe width="300" height="300" src="https://www.youtube.com/embed/pag3B783kik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
-    .addTo(map);
-    // .openPopup();
+//Marker add
 
-    var markerGare = L.marker([48.843005, 2.580443])
-    .bindPopup('<h1>Future Gare</h1><iframe width="300" height="300" src="https://www.youtube.com/embed/-fOhgOvoEEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
-    .addTo(map);
 
-    // var markerVideo = L.marker([48.886005, 2.374572])
-    // .bindPopup('<h1>Cours d’eau urbains et baignade en eau libre</h1><iframe width="300" height="300" src="https://vimeo.com/870659723/0c95655e94?share=copy" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
-    // .addTo(map);
+var markerVideo = L.marker([48.886005, 2.374572]).addTo(map)
+.bindPopup('<h1>Cours d’eau urbains et baignade en eau libre</h1><iframe src="https://player.vimeo.com/video/870659723?h=e47f679bc6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
 
-    var markerVideo = L.marker([48.886005, 2.374572])
-    .bindPopup('<h1>Cours d’eau urbains et baignade en eau libre</h1><iframe width="640" height="360" title="vimeo-player" src="https://player.vimeo.com/video/870659723?h=e47f679bc6" frameborder="0" allowfullscreen></iframe>')
-    // https://player.vimeo.com/video/713012499?h=e47f679bc6
-    .addTo(map);
+
+var markerVideo = L.marker([48.408809, 3.136201]).addTo(map)
+.bindPopup('<h1>Territoire servis, territoires servants : face aux grands projets, quel avenir pour la Bassée ?</h1><iframe src="https://player.vimeo.com/video/910517811?h=d9e60603dc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
+
+var markerVideo = L.marker([48.778111, 2.528954]).addTo(map)
+.bindPopup('<h1>Le Morbras, une petite rivière urbaine sous pression ou opportunité pour redécouvrir la nature en ville ?</h1><iframe src="https://player.vimeo.com/video/910353131?h=9700b3b9a8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
+
+var markerVideo = L.marker([48.899369, 2.434745]).addTo(map)
+.bindPopup('<h1>Les jardins partagés : des nouvelles manières de produire la ville</h1><iframe src="https://player.vimeo.com/video/910385853?h=4c3aa747a5" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
+
+var markerVideo = L.marker([48.995722, 2.647588]).addTo(map)
+.bindPopup('<h1>Solutions fondées sur la nature pour la gestion durable des ruissellements de voirie</h1><iframe src="https://player.vimeo.com/video/910418837?h=7c1baf663e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
+
+var markerVideo = L.marker([48.825693, 2.717854]).addTo(map)
+.bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe src="https://player.vimeo.com/video/910368493?h=88c7953337" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
+
+var markerVideo = L.marker([48.863325, 2.598717]).addTo(map)
+.bindPopup('<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1><iframe src="https://player.vimeo.com/video/870659723?h=e47f679bc6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
+
+
+// Cité Descartes
+
+
+var markerVideo = L.marker([48.841497, 2.587606]).addTo(map)
+.bindPopup('<h1>Pipi, caca, matières fertiles ? Quand les citadins désertent le tout-à-l’égout</h1><iframe src="https://player.vimeo.com/video/910480155?h=80877d0394" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
+
+var markerVideo = L.marker([48.841776, 2.589672]).addTo(map)
+// .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe width="560" height="315" src="https://www.canal-u.tv/embed/132756" frameborder="0" allow="accelerometer; autoplay; clipboard-write;  gyroscope; picture-in-picture" encrypted-media" allowfullscreen></iframe>',  { 
+//   maxWidth : 560 
+// });
+.bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe src="https://player.vimeo.com/video/910567830?h=7cd44aef18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>',  { 
+  maxWidth : 640 
+});
+
