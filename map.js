@@ -236,4 +236,4 @@ var overlays = {
 //   "<img src='./icons/leaf-red.png'/> <span class='my-layer-item'>PolitiquesDeLaNature</span>": PolitiquesDeLaNature
 };
 
-L.control.layers(Base, overlays, {collapsed:false, hideSingleBase:true}).addTo(map);
+L.control.layers(Base, overlays, {collapsed:false, hideSingleBase:true, position:"bottomleft"}).addTo(map);
