@@ -186,7 +186,7 @@ var FenBrie = L.marker([48.825693, 2.717854], {icon: greenIcon}).addTo(NatureAgr
 
 
 var LacChamps = L.marker([48.863325, 2.598717], {icon: greenIcon}).addTo(NatureAgrémentale)
-  .bindPopup('<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1><iframe src="https://vimeo.com/877178506/fe100aae9a?share=copy" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>', {
+  .bindPopup('<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1><iframe src="https://player.vimeo.com/video/870659723?h=e47f679bc6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>', {
     maxWidth: 640
   });
 
@@ -202,12 +202,12 @@ var PipiCaca = L.marker([48.841497, 2.587606], {icon: orangeIcon}).addTo(NatureB
 
 
 var ArbresDePluie = L.marker([48.841776, 2.589672], {icon: orangeIcon}).addTo(NatureBasedSolutions)
-  // .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe width="560" height="315" src="https://www.canal-u.tv/embed/132756" frameborder="0" allow="accelerometer; autoplay; clipboard-write;  gyroscope; picture-in-picture" encrypted-media" allowfullscreen></iframe>',  { 
-  //   maxWidth : 560 
-  // });
-  .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe src="https://player.vimeo.com/video/910567830?h=7cd44aef18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
+  .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe width="560" height="315" src="https://www.canal-u.tv/embed/132756" frameborder="0" allow="accelerometer; autoplay; clipboard-write;  gyroscope; picture-in-picture" encrypted-media" allowfullscreen></iframe>',  { 
+    maxWidth : 560 
   });
+  // .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe src="https://player.vimeo.com/video/910567830?h=7cd44aef18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+  //   maxWidth: 640
+  // });
 
     
 var map = L.map('map', {
