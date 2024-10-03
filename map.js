@@ -181,7 +181,6 @@ var Compans = L.marker([48.995722, 2.647588], {icon: orangeIcon}).addTo(NatureBa
 
 var FenBrie = L.marker([48.825693, 2.717854], {icon: greenIcon}).addTo(NatureAgrémentale)
   .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
-    // <iframe src="https://player.vimeo.com/video/910368493?h=88c7953337" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>
     maxWidth: 640
   });
 
