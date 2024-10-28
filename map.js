@@ -146,7 +146,7 @@ L.icon = function (options) {
 
 
 var Vilette = L.marker([48.886005, 2.374572], {icon: greenIcon}).addTo(NatureAgrémentale)
-  .bindPopup('<h1>Cours d’eau urbains et baignade en eau libre</h1><iframe src="https://player.vimeo.com/video/870659723?h=e47f679bc6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>', {
+  .bindPopup('<h1>Cours d’eau urbains et baignade en eau libre</h1><iframe src="https://player.vimeo.com/video/910529133?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>', {
     maxWidth: 640
   });
 
@@ -180,9 +180,17 @@ var Compans = L.marker([48.995722, 2.647588], {icon: orangeIcon}).addTo(NatureBa
 
 
 var FenBrie = L.marker([48.825693, 2.717854], {icon: greenIcon}).addTo(NatureAgrémentale)
-  .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
+  .bindPopup('<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1><iframe src="https://player.vimeo.com/video/910368493?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>', {
     maxWidth: 640
   });
+
+  // .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
+  //   maxWidth: 640
+  // });
+
+
+  // <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/910368493?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  
 
 
 var LacChamps = L.marker([48.863325, 2.598717], {icon: greenIcon}).addTo(NatureAgrémentale)
@@ -202,11 +210,12 @@ var PipiCaca = L.marker([48.841497, 2.587606], {icon: orangeIcon}).addTo(NatureB
 
 
 var ArbresDePluie = L.marker([48.841776, 2.589672], {icon: orangeIcon}).addTo(NatureBasedSolutions)
-  .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe width="560" height="315" src="https://www.canal-u.tv/embed/132756" frameborder="0" allow="accelerometer; autoplay; clipboard-write;  gyroscope; picture-in-picture" encrypted-media" allowfullscreen></iframe>',  { 
-    maxWidth : 560 
+  .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe src="https://player.vimeo.com/video/910567830?h=7cd44aef18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+    maxWidth: 640
   });
-  // .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe src="https://player.vimeo.com/video/910567830?h=7cd44aef18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-  //   maxWidth: 640
+
+  // .bindPopup('<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1><iframe width="560" height="315" src="https://www.canal-u.tv/embed/132756" frameborder="0" allow="accelerometer; autoplay; clipboard-write;  gyroscope; picture-in-picture" encrypted-media" allowfullscreen></iframe>',  { 
+  //   maxWidth : 560 
   // });
 
     
