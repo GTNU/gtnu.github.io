@@ -222,7 +222,7 @@ var ArbresDePluie = L.marker([48.841776, 2.589672], {icon: orangeIcon}).addTo(Na
 var map = L.map('map', {
   center: [48.840265, 2.584583],
   minZoom: 9,
-  zoom: 3,
+  zoom: 4,
   layers: [
     basemap,
     NatureBasedSolutions,
