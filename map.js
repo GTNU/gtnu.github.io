@@ -179,10 +179,10 @@ var Compans = L.marker([48.995722, 2.647588], {icon: orangeIcon}).addTo(NatureBa
   });
 
 
-var FenBrie = L.marker([48.825693, 2.717854], {icon: greenIcon}).addTo(NatureAgrémentale)
-  .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var FenBrie = L.marker([48.825693, 2.717854], {icon: greenIcon}).addTo(NatureAgrémentale)
+//   .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
   // .bindPopup('<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1><iframe src="https://player.vimeo.com/video/910368493?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>', {
   //   maxWidth: 640
   // });
