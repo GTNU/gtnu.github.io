@@ -1,6 +1,7 @@
 // Map initialization 
 
 
+
 //ESRI layer basemap
 var basemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
@@ -179,10 +180,27 @@ var Compans = L.marker([48.995722, 2.647588], {icon: orangeIcon}).addTo(NatureBa
   });
 
 
+
+// function onMyFrameLoad() {
+//   alert('myframe is loaded');
+// };
+
 // var FenBrie = L.marker([48.825693, 2.717854], {icon: greenIcon}).addTo(NatureAgrémentale)
-//   .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
+//   .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><iframe id="myframe" width="100%" height="=100%" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen style="position:absolute; top:0; left: 0"  onload="onMyFrameLoad(this)"></iframe>', {
 //     maxWidth: 640
 //   });
+
+
+var FenBrie = L.marker([48.825693, 2.717854], {icon: greenIcon}).addTo(NatureAgrémentale)
+  .bindPopup('<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1><div style="padding-bottom:56.25%; position:relative; display:block; width: 100%"><iframe width="100%" height="100%" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe></div>', 
+    {maxWidth: 640
+  });
+
+
+
+
+
+
   // .bindPopup('<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1><iframe src="https://player.vimeo.com/video/910368493?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"vallowfullscreen></iframe>', {
   //   maxWidth: 640
   // });
