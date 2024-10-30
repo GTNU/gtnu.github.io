@@ -3,6 +3,7 @@
 <meta charset="utf-8">
 
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +11,56 @@
 
     <!-- leaflet css  -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@drustack/leaflet.resetview/dist/L.Control.ResetView.min.css">
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
-        #map {
-            width: 100%;
-            height: 100vh;
-        }
+    #map {
+        width: 100%;
+        height: 100vh;
+    }
 
-    </style>
+    /* Cité Descartes */
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #refreshButton {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 10px;
+        z-index: 400;
+    }
+</style>
 
 </head>
 
 <body>
     <div id="map"></div>
+    <div id="mainContainer">
+        <div id="mapDiv">
+          <div id="map">
+            <button id="refreshButton">
+              Cité Descartes
+            </button>
+          </div>
+        </div>
+        <div id="bars"></div>
+      </div>
 </body>
 
 <!-- leaflet js  -->
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@drustack/leaflet.resetview/dist/L.Control.ResetView.min.js"></script>
 
 <script src="map.js" charset="UTF-8"></script>
 
