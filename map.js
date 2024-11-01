@@ -329,6 +329,9 @@ button.addEventListener('click', () => map.flyTo([48.840897, 2.589177], 16));
 // Leaflet mouse wheel zoom only after click on map
 // https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
 
+
+map.on('focus', function() { map.scrollWheelZoom.enable(); });
+map.on('blur', function() { map.scrollWheelZoom.disable(); });
 map.once('focus', function() { map.scrollWheelZoom.enable(); });
 
 map.on('click', function() {
