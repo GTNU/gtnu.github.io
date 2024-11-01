@@ -302,6 +302,7 @@ var map = L.map('map', {
   center: [48.840265, 2.584583],
   minZoom: 9,
   zoom: 9,
+  gestureHandling: true,
   layers: [
     basemap,
     NatureBasedSolutions,
@@ -326,22 +327,22 @@ L.control.resetView({
 var button = document.getElementById('refreshButton');
 button.addEventListener('click', () => map.flyTo([48.840897, 2.589177], 16));
 
-// Leaflet mouse wheel zoom only after click on map
-// https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
+// // Leaflet mouse wheel zoom only after click on map
+// // https://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
 
 
-map.on('focus', function() { map.scrollWheelZoom.enable(); });
-map.on('blur', function() { map.scrollWheelZoom.disable(); });
-map.once('focus', function() { map.scrollWheelZoom.enable(); });
+// map.on('focus', function() { map.scrollWheelZoom.enable(); });
+// map.on('blur', function() { map.scrollWheelZoom.disable(); });
+// map.once('focus', function() { map.scrollWheelZoom.enable(); });
 
-map.on('click', function() {
-  if (map.scrollWheelZoom.enabled()) {
-    map.scrollWheelZoom.disable();
-    }
-    else {
-    map.scrollWheelZoom.enable();
-    }
-  });
+// map.on('click', function() {
+//   if (map.scrollWheelZoom.enabled()) {
+//     map.scrollWheelZoom.disable();
+//     }
+//     else {
+//     map.scrollWheelZoom.enable();
+//     }
+//   });
 
 
 L.control.layers(Base, overlays, { collapsed: false, hideSingleBase: true, position: "bottomleft" }).addTo(map);
