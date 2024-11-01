@@ -303,6 +303,13 @@ var map = L.map('map', {
   minZoom: 9,
   zoom: 9,
   gestureHandling: true,
+  gestureHandlingOptions: {
+    text: {
+        touch: "Hey bro, use two fingers to move the map",
+        scroll: "Hey bro, use ctrl + scroll to zoom the map",
+        scrollMac: "Hey bro, use \u2318 + scroll to zoom the map"
+    }
+},
   layers: [
     basemap,
     NatureBasedSolutions,
