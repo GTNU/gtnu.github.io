@@ -224,9 +224,9 @@ L.icon = function (options) {
 
 // Marker add canal-u
 
-
+  // .bindPopup('<h1 href="https://www.w3schools.com/">Cours d’eau urbains et baignade en eau libre</h1>\
 var Vilette = L.marker([48.886005, 2.374572], { icon: greenIcon }).addTo(NatureAgrémentale)
-  .bindPopup('<h1>Cours d’eau urbains et baignade en eau libre</h1>\
+  .bindPopup('<h1><a href="https://gtnu.hypotheses.org/1462">Cours d’eau urbains et baignade en eau libre</a></h1>\
     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157472?t=0" allowfullscreen></iframe>', {
     maxWidth: 560
   });
@@ -243,7 +243,7 @@ var Morbras = L.marker([48.778111, 2.528954], { icon: redIcon }).addTo(Politique
   .bindPopup(
     '<h1>Le Morbras, une petite rivière urbaine sous pression ou opportunité pour redécouvrir la nature en ville ?</h1>\
     <h2>Par Laurent Lespez</h2>\
-    <h3>Professeur des Universités en Géographie de l’environnement à l’Université de Paris-Est Créteil et Directeur adjoint du Laboratoire de Géographie Physique du CNRS</h3>\
+    // <h3>Professeur des Universités en Géographie de l’environnement à l’Université de Paris-Est Créteil et Directeur adjoint du Laboratoire de Géographie Physique du CNRS</h3>\
     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157439?t=0" allowfullscreen></iframe>', {
     maxWidth: 560
   });
