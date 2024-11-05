@@ -219,80 +219,80 @@ L.icon = function (options) {
 //   });
 
 
-// Marker add vimeo avec chercheurs
+// // Marker add vimeo avec chercheurs
 
-var Vilette = L.marker([48.886005, 2.374572], { icon: greenIcon }).addTo(NatureAgrémentale)
-  .bindPopup(
-    '<h1>Cours d’eau urbains et baignade en eau libre</h1>\
-    <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
-    <iframe src="https://player.vimeo.com/video/910529133?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var Vilette = L.marker([48.886005, 2.374572], { icon: greenIcon }).addTo(NatureAgrémentale)
+//   .bindPopup(
+//     '<h1>Cours d’eau urbains et baignade en eau libre</h1>\
+//     <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
+//     <iframe src="https://player.vimeo.com/video/910529133?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var Bassée = L.marker([48.408809, 3.136201], { icon: redIcon }).addTo(PolitiquesDeLaNature)
-  .bindPopup(
-    '<h1>Territoire servis, territoires servants : face aux grands projets, quel avenir pour la Bassée ?</h1>\
-    <h2>Par Julie Gobert et José-Frédéric Deroubaix</h2>\
-    <iframe src="https://player.vimeo.com/video/910517811?h=d9e60603dc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var Bassée = L.marker([48.408809, 3.136201], { icon: redIcon }).addTo(PolitiquesDeLaNature)
+//   .bindPopup(
+//     '<h1>Territoire servis, territoires servants : face aux grands projets, quel avenir pour la Bassée ?</h1>\
+//     <h2>Par Julie Gobert et José-Frédéric Deroubaix</h2>\
+//     <iframe src="https://player.vimeo.com/video/910517811?h=d9e60603dc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var Morbras = L.marker([48.778111, 2.528954], { icon: redIcon }).addTo(PolitiquesDeLaNature)
-  .bindPopup(
-    '<h1>Le Morbras, une petite rivière urbaine sous pression ou opportunité pour redécouvrir la nature en ville ?</h1>\
-    <h2>Par Laurent Lespez</h2>\
-    <h3>Professeur des Universités en Géographie de l’environnement à l’Université de Paris-Est Créteil et Directeur adjoint du Laboratoire de Géographie Physique du CNRS</h3>\
-    <iframe src="https://player.vimeo.com/video/910353131?h=9700b3b9a8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var Morbras = L.marker([48.778111, 2.528954], { icon: redIcon }).addTo(PolitiquesDeLaNature)
+//   .bindPopup(
+//     '<h1>Le Morbras, une petite rivière urbaine sous pression ou opportunité pour redécouvrir la nature en ville ?</h1>\
+//     <h2>Par Laurent Lespez</h2>\
+//     <h3>Professeur des Universités en Géographie de l’environnement à l’Université de Paris-Est Créteil et Directeur adjoint du Laboratoire de Géographie Physique du CNRS</h3>\
+//     <iframe src="https://player.vimeo.com/video/910353131?h=9700b3b9a8" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var Bobigny = L.marker([48.899369, 2.434745], { icon: redIcon }).addTo(PolitiquesDeLaNature)
-  .bindPopup(
-    '<h1>Les jardins partagés : des nouvelles manières de produire la ville</h1>\
-    <h2>Par Ana-Cristina Torres</h2>\
-    <iframe src="https://player.vimeo.com/video/910385853?h=4c3aa747a5" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var Bobigny = L.marker([48.899369, 2.434745], { icon: redIcon }).addTo(PolitiquesDeLaNature)
+//   .bindPopup(
+//     '<h1>Les jardins partagés : des nouvelles manières de produire la ville</h1>\
+//     <h2>Par Ana-Cristina Torres</h2>\
+//     <iframe src="https://player.vimeo.com/video/910385853?h=4c3aa747a5" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var Compans = L.marker([48.995722, 2.647588], { icon: orangeIcon }).addTo(NatureBasedSolutions)
-  .bindPopup(
-    '<h1>Solutions fondées sur la nature pour la gestion durable des ruissellements de voirie</h1>\
-    <h2>Par Marie-Christine Gromaire et Mohamed Saad</h2>\
-    <iframe src="https://player.vimeo.com/video/910418837?h=7c1baf663e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var Compans = L.marker([48.995722, 2.647588], { icon: orangeIcon }).addTo(NatureBasedSolutions)
+//   .bindPopup(
+//     '<h1>Solutions fondées sur la nature pour la gestion durable des ruissellements de voirie</h1>\
+//     <h2>Par Marie-Christine Gromaire et Mohamed Saad</h2>\
+//     <iframe src="https://player.vimeo.com/video/910418837?h=7c1baf663e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var FenBrie = L.marker([48.825693, 2.717854], { icon: greenIcon }).addTo(NatureAgrémentale)
-  .bindPopup(
-    '<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1>\
-    <h2>Par Jean Estebanez</h2>\
-    <iframe src="https://player.vimeo.com/video/910368493?h=88c7953337" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var FenBrie = L.marker([48.825693, 2.717854], { icon: greenIcon }).addTo(NatureAgrémentale)
+//   .bindPopup(
+//     '<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1>\
+//     <h2>Par Jean Estebanez</h2>\
+//     <iframe src="https://player.vimeo.com/video/910368493?h=88c7953337" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var LacChamps = L.marker([48.863325, 2.598717], { icon: greenIcon }).addTo(NatureAgrémentale)
-  .bindPopup(
-    '<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1>\
-    <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
-    <iframe src="https://player.vimeo.com/video/870659723?h=e47f679bc6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var LacChamps = L.marker([48.863325, 2.598717], { icon: greenIcon }).addTo(NatureAgrémentale)
+//   .bindPopup(
+//     '<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1>\
+//     <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
+//     <iframe src="https://player.vimeo.com/video/870659723?h=e47f679bc6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var PipiCaca = L.marker([48.839750, 2.588353], { icon: orangeIcon }).addTo(NatureBasedSolutions)
-  .bindPopup(
-    '<h1>Pipi, caca, matières fertiles ? Quand les citadins désertent le tout-à-l’égout</h1>\
-    <h2>Par Marine Legrand</h2>\
-    <iframe src="https://player.vimeo.com/video/910480155?h=80877d0394" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var PipiCaca = L.marker([48.839750, 2.588353], { icon: orangeIcon }).addTo(NatureBasedSolutions)
+//   .bindPopup(
+//     '<h1>Pipi, caca, matières fertiles ? Quand les citadins désertent le tout-à-l’égout</h1>\
+//     <h2>Par Marine Legrand</h2>\
+//     <iframe src="https://player.vimeo.com/video/910480155?h=80877d0394" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
-var ArbresDePluie = L.marker([48.841776, 2.589672], { icon: orangeIcon }).addTo(NatureBasedSolutions)
-  .bindPopup(
-    '<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1>\
-    <h2>Par Marie-Christine Gromaire et Martin Seidl</h2>\
-    <iframe src="https://player.vimeo.com/video/910567830?h=7cd44aef18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
-    maxWidth: 640
-  });
+// var ArbresDePluie = L.marker([48.841776, 2.589672], { icon: orangeIcon }).addTo(NatureBasedSolutions)
+//   .bindPopup(
+//     '<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1>\
+//     <h2>Par Marie-Christine Gromaire et Martin Seidl</h2>\
+//     <iframe src="https://player.vimeo.com/video/910567830?h=7cd44aef18" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>', {
+//     maxWidth: 640
+//   });
 
 
 // // Marker add canal-u avec lien
@@ -383,79 +383,79 @@ var ArbresDePluie = L.marker([48.841776, 2.589672], { icon: orangeIcon }).addTo(
 
 
 
-// // Marker add canal-u sans lien
+// Marker add canal-u sans lien
 
-// var Vilette = L.marker([48.886005, 2.374572], { icon: greenIcon }).addTo(NatureAgrémentale)
-//   .bindPopup(
-//     '<h1>Cours d’eau urbains et baignade en eau libre</h1>\
-//     <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157472?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var Vilette = L.marker([48.886005, 2.374572], { icon: greenIcon }).addTo(NatureAgrémentale)
+  .bindPopup(
+    '<h1>Cours d’eau urbains et baignade en eau libre</h1>\
+    <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157472?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
-// var Bassée = L.marker([48.408809, 3.136201], { icon: redIcon }).addTo(PolitiquesDeLaNature)
-//   .bindPopup(
-//     '<h1>Territoire servis, territoires servants : face aux grands projets, quel avenir pour la Bassée ?</h1>\
-//     <h2>Par Julie Gobert et José-Frédéric Deroubaix</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157437?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var Bassée = L.marker([48.408809, 3.136201], { icon: redIcon }).addTo(PolitiquesDeLaNature)
+  .bindPopup(
+    '<h1>Territoire servis, territoires servants : face aux grands projets, quel avenir pour la Bassée ?</h1>\
+    <h2>Par Julie Gobert et José-Frédéric Deroubaix</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157437?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
-// var Morbras = L.marker([48.778111, 2.528954], { icon: redIcon }).addTo(PolitiquesDeLaNature)
-//   .bindPopup(
-//     '<h1>Le Morbras, une petite rivière urbaine sous pression ou opportunité pour redécouvrir la nature en ville ?</h1>\
-//     <h2>Par Laurent Lespez</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157439?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var Morbras = L.marker([48.778111, 2.528954], { icon: redIcon }).addTo(PolitiquesDeLaNature)
+  .bindPopup(
+    '<h1>Le Morbras, une petite rivière urbaine sous pression ou opportunité pour redécouvrir la nature en ville ?</h1>\
+    <h2>Par Laurent Lespez</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157439?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
-// var Bobigny = L.marker([48.899369, 2.434745], { icon: redIcon }).addTo(PolitiquesDeLaNature)
-//   .bindPopup(
-//     '<h1>Les jardins partagés : des nouvelles manières de produire la ville</h1>\
-//     <h2>Par Ana-Cristina Torres</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157443?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var Bobigny = L.marker([48.899369, 2.434745], { icon: redIcon }).addTo(PolitiquesDeLaNature)
+  .bindPopup(
+    '<h1>Les jardins partagés : des nouvelles manières de produire la ville</h1>\
+    <h2>Par Ana-Cristina Torres</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157443?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
-// var Compans = L.marker([48.995722, 2.647588], { icon: orangeIcon }).addTo(NatureBasedSolutions)
-//   .bindPopup(
-//     '<h1>Solutions fondées sur la nature pour la gestion durable des ruissellements de voirie</h1>\
-//     <h2>Par Marie-Christine Gromaire et Mohamed Saad</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156515?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var Compans = L.marker([48.995722, 2.647588], { icon: orangeIcon }).addTo(NatureBasedSolutions)
+  .bindPopup(
+    '<h1>Solutions fondées sur la nature pour la gestion durable des ruissellements de voirie</h1>\
+    <h2>Par Marie-Christine Gromaire et Mohamed Saad</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156515?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
-// var FenBrie = L.marker([48.825693, 2.717854], { icon: greenIcon }).addTo(NatureAgrémentale)
-//   .bindPopup(
-//     '<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1>\
-//     <h2>Par Jean Estebanez</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var FenBrie = L.marker([48.825693, 2.717854], { icon: greenIcon }).addTo(NatureAgrémentale)
+  .bindPopup(
+    '<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1>\
+    <h2>Par Jean Estebanez</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
-// var LacChamps = L.marker([48.863325, 2.598717], { icon: greenIcon }).addTo(NatureAgrémentale)
-//   .bindPopup(
-//     '<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1>\
-//     <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157473?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var LacChamps = L.marker([48.863325, 2.598717], { icon: greenIcon }).addTo(NatureAgrémentale)
+  .bindPopup(
+    '<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1>\
+    <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157473?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
-// var ArbresDePluie = L.marker([48.841776, 2.589672], { icon: orangeIcon }).addTo(NatureBasedSolutions)
-// .bindPopup(
-//   '<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1>\
-//   <h2>Par Marie-Christine Gromaire et Martin Seidl</h2>\
-//   <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157441?t=0" allowfullscreen></iframe>',  { 
-//   maxWidth : 560 
-// });
+var ArbresDePluie = L.marker([48.841776, 2.589672], { icon: orangeIcon }).addTo(NatureBasedSolutions)
+.bindPopup(
+  '<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1>\
+  <h2>Par Marie-Christine Gromaire et Martin Seidl</h2>\
+  <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157441?t=0" allowfullscreen></iframe>',  { 
+  maxWidth : 560 
+});
 
-// var PipiCaca = L.marker([48.839750, 2.588353], { icon: orangeIcon }).addTo(NatureBasedSolutions)
-//   .bindPopup(
-//     '<h1>Pipi, caca, matières fertiles ? Quand les citadins désertent le tout-à-l’égout</h1>\
-//     <h2>Par Marine Legrand</h2>\
-//     <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157435?t=0" allowfullscreen></iframe>', {
-//     maxWidth: 560
-//   });
+var PipiCaca = L.marker([48.839750, 2.588353], { icon: orangeIcon }).addTo(NatureBasedSolutions)
+  .bindPopup(
+    '<h1>Pipi, caca, matières fertiles ? Quand les citadins désertent le tout-à-l’égout</h1>\
+    <h2>Par Marine Legrand</h2>\
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157435?t=0" allowfullscreen></iframe>', {
+    maxWidth: 560
+  });
 
 
 
