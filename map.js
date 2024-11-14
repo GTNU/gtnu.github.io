@@ -87,7 +87,8 @@ var Bassée = L.marker([48.408809, 3.136201], {icon: new LeafIcon({iconUrl: (ico
   .bindPopup(
     '<h1>Territoire servis, territoires servants : face aux grands projets, quel avenir pour la Bassée ?</h1>\
     <h2>Par Julie Gobert et José-Frédéric Deroubaix</h2>\
-    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157437?t=0" allowfullscreen></iframe>', {
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157437?t=0" allowfullscreen></iframe>\
+    <a href="https://www.canal-u.tv/chaines/nu/territoire-servis-territoires-servants-face-aux-grands-projets-quel-avenir-pour-la" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>', {
     maxWidth: 560
   });
 
@@ -95,7 +96,8 @@ var Morbras = L.marker([48.778111, 2.528954], {icon: new LeafIcon({iconUrl: (ico
   .bindPopup(
     '<h1>Le Morbras, une petite rivière urbaine sous pression ou opportunité pour redécouvrir la nature en ville ?</h1>\
     <h2>Par Laurent Lespez</h2>\
-    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157439?t=0" allowfullscreen></iframe>', {
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157439?t=0" allowfullscreen></iframe>\
+    <a href="https://www.canal-u.tv/chaines/nu/le-morbras-une-petite-riviere-urbaine-sous-pression-ou-opportunite-pour-redecouvrir-la" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>', {
     maxWidth: 560
   });
 
@@ -103,7 +105,8 @@ var Bobigny = L.marker([48.899369, 2.434745], {icon: new LeafIcon({iconUrl: (ico
   .bindPopup(
     '<h1>Les jardins partagés : des nouvelles manières de produire la ville</h1>\
     <h2>Par Ana-Cristina Torres</h2>\
-    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157443?t=0" allowfullscreen></iframe>', {
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157443?t=0" allowfullscreen></iframe>\
+    <a href="https://www.canal-u.tv/chaines/nu/les-jardins-partages-des-nouvelles-manieres-de-produire-la-ville" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>', {
     maxWidth: 560
   });
 
@@ -111,7 +114,8 @@ var Compans = L.marker([48.995722, 2.647588], {icon: new LeafIcon({iconUrl: (ico
   .bindPopup(
     '<h1>Solutions fondées sur la nature pour la gestion durable des ruissellements de voirie</h1>\
     <h2>Par Marie-Christine Gromaire et Mohamed Saad</h2>\
-    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156515?t=0" allowfullscreen></iframe>', {
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156515?t=0" allowfullscreen></iframe>\
+    <a href="https://www.canal-u.tv/chaines/nu/solutions-fondees-sur-la-nature-pour-la-gestion-durable-des-ruissellements-de-voirie-0" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>', {
     maxWidth: 560
   });
 
@@ -119,7 +123,8 @@ var FenBrie = L.marker([48.825693, 2.717854], {icon: new LeafIcon({iconUrl: (ico
   .bindPopup(
     '<h1>La nature des zones logistique : Ferrière-en-Brie (Seine-et-Marne)</h1>\
     <h2>Par Jean Estebanez</h2>\
-    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>', {
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/156833?t=0" allowfullscreen></iframe>\
+    <a href="https://www.canal-u.tv/chaines/nu/la-nature-des-zones-logistiques-l-exemple-de-ferrieres-en-brie" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>', {
     maxWidth: 560
   });
 
@@ -127,7 +132,8 @@ var LacChamps = L.marker([48.863325, 2.598717], {icon: new LeafIcon({iconUrl: (i
   .bindPopup(
     '<h1>Plans d’eau urbains et accès à la nature : Le lac de Champs-sur-Marne</h1>\
     <h2>Par Brigitte Vinçon-Leite et Arthur Guillot-Le Goff</h2>\
-    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157473?t=0" allowfullscreen></iframe>', {
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157473?t=0" allowfullscreen></iframe>\
+    <a href="https://www.canal-u.tv/chaines/nu/plans-d-eau-urbains-et-acces-a-la-nature-le-lac-de-champs-sur-marne" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>', {
     maxWidth: 560
   });
 
@@ -135,7 +141,8 @@ var ArbresDePluie = L.marker([48.841776, 2.589672], {icon: new LeafIcon({iconUrl
 .bindPopup(
   '<h1>Jardin et arbres de pluie pour la gestion &agrave; la source des eaux pluviales urbaines, les dispositifs de SenseCity</h1>\
   <h2>Par Marie-Christine Gromaire et Martin Seidl</h2>\
-  <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157441?t=0" allowfullscreen></iframe>',  { 
+  <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157441?t=0" allowfullscreen></iframe>\
+  <a href="https://www.canal-u.tv/chaines/nu/jardins-et-arbres-de-pluie-pour-la-gestion-a-la-source-des-eaux-pluviales-urbaines-les" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>',  { 
   maxWidth : 560 
 });
 
@@ -143,7 +150,8 @@ var PipiCaca = L.marker([48.839750, 2.588353], {icon: new LeafIcon({iconUrl: (ic
   .bindPopup(
     '<h1>Pipi, caca, matières fertiles ? Quand les citadins désertent le tout-à-l’égout</h1>\
     <h2>Par Marine Legrand</h2>\
-    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157435?t=0" allowfullscreen></iframe>', {
+    <iframe width="560" height="315" src="https://www.canal-u.tv/chaines/nu/embed/157435?t=0" allowfullscreen></iframe>\
+    <a href="https://www.canal-u.tv/chaines/nu/pipi-caca-matieres-fertiles-quand-les-citadins-desertent-le-tout-a-l-egout" target="_blank"><p>Visionner la vidéo en plein écran dans un nouvel onglet</p></a>', {
     maxWidth: 560
   });
 
